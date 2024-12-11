@@ -11,14 +11,14 @@ namespace Tyuiu.Ignatov.Lab2.TaskReview.V9
 
             Console.Title = " Выполнила: Игнатов А.В. | МКМб-22-1";
             Console.WriteLine("******************************************************************************");
-            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                          *");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                           *");
             Console.WriteLine("******************************************************************************");
             Console.Write("Старт шага = ");
             int start = Convert.ToInt32(Console.ReadLine());
             Console.Write("Конец шага = ");
             int end = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("******************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                                *");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                                 *");
             Console.WriteLine("******************************************************************************");
             Console.WriteLine("+----------+----------+");
             Console.WriteLine("|    X     |    f(x)  |");
